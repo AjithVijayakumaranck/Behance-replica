@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Behance</title>
+   
+    <link rel="icon" href="img/5847eb9dcef1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+</head>
+
+<body>
+    <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg bg-white navborder fixed-top mb-2 dabs" id="navbar">
+        <div class="container-fluid">
+            <div class="d-flex">
+                <button class="navbar-toggler btn-outline-none buttonout " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <img class="navbar-brand d-none d-md-flex"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Behance_logo.svg/1920px-Behance_logo.svg.png?20180331154838"
+                    style="height:auto; width:100px;" class="ms-2" alt="">
+                <img class=" d-md-flex  d-md-none" style="height:40px; width: 40px  logo;"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMjIgN2gtN3YtMmg3djJ6bTEuNzI2IDEwYy0uNDQyIDEuMjk3LTIuMDI5IDMtNS4xMDEgMy0zLjA3NCAwLTUuNTY0LTEuNzI5LTUuNTY0LTUuNjc1IDAtMy45MSAyLjMyNS01LjkyIDUuNDY2LTUuOTIgMy4wODIgMCA0Ljk2NCAxLjc4MiA1LjM3NSA0LjQyNi4wNzguNTA2LjEwOSAxLjE4OC4wOTUgMi4xNGgtOC4wMjdjLjEzIDMuMjExIDMuNDgzIDMuMzEyIDQuNTg4IDIuMDI5aDMuMTY4em0tNy42ODYtNGg0Ljk2NWMtLjEwNS0xLjU0Ny0xLjEzNi0yLjIxOS0yLjQ3Ny0yLjIxOS0xLjQ2NiAwLTIuMjc3Ljc2OC0yLjQ4OCAyLjIxOXptLTkuNTc0IDYuOTg4aC02LjQ2NnYtMTQuOTY3aDYuOTUzYzUuNDc2LjA4MSA1LjU4IDUuNDQ0IDIuNzIgNi45MDYgMy40NjEgMS4yNiAzLjU3NyA4LjA2MS0zLjIwNyA4LjA2MXptLTMuNDY2LTguOTg4aDMuNTg0YzIuNTA4IDAgMi45MDYtMy0uMzEyLTNoLTMuMjcydjN6bTMuMzkxIDNoLTMuMzkxdjMuMDE2aDMuMzQxYzMuMDU1IDAgMi44NjgtMy4wMTYuMDUtMy4wMTZ6Ii8+PC9zdmc+"
+                    style="height:auto; width:100px;" class="ms-2" alt="">
+                
+            </div>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="fs-6 nav-link fw-normal text-dark ms-4 afweight" href="#">Discover</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" fs-6 fw-normal text-dark nav-link ms-4 afweight" href="#">Live streams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fs-6 nav-link fw-normal text-dark ms-4  afweight">Jobs</a>
+                    </li>
+                </ul>
+                <div> <button class="btn btn-outline-dark mx-3 buttonradius px-4"> log in</button></div>
+                <button class="btn btn-primary mx-3 buttonradius px-4 mt-3 mt-md-0"> Sign up</button>
+               
+                 <a href="#"> <img src="" alt=""></a>
+
+            </div>
+            <svg class=" d-none d-lg-flex  " xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="me-3"
+                viewBox="0 0 24 24">
+                <path
+                    d="M8.228 15.01h-2.228v-2.01h2.261c1.878 0 2.003 2.01-.033 2.01zm6.758-2.677h3.018c-.117-1.715-2.73-1.977-3.018 0zm-6.804-3.333h-2.182v2h2.389c1.673 0 1.937-2-.207-2zm15.818-4v14c0 2.761-2.238 5-5 5h-14c-2.762 0-5-2.239-5-5v-14c0-2.761 2.238-5 5-5h14c2.762 0 5 2.239 5 5zm-10 3h5v-1h-5v1zm-3.552 3.618c1.907-.974 1.837-4.55-1.813-4.604h-4.635v9.978h4.311c4.522 0 4.445-4.534 2.137-5.374zm9.487.602c-.274-1.763-1.528-2.95-3.583-2.95-2.094 0-3.352 1.34-3.352 3.947 0 2.631 1.367 3.783 3.416 3.783s3.106-1.135 3.4-2h-2.111c-.736.855-2.893.521-2.767-1.353h5.06c.01-.634-.012-1.089-.063-1.427z" />
+            </svg>
+
+        </div>
+        </div>
+    </nav>
+
+    <!-- search bar and other nav -->
+
+    <section class="navbar bg-light mt-5 paddingtop">
+        <form class="container-fluid">
+
+            <div class="input-group my-auto ms-2">
+                <input type="text" class="form-control  searchradius fw-bolder fontsizesearch ps-5 color-secondary"
+                    placeholder="Search the creative World at Work" aria-label="Username">
+                <div class="dropdown-center barradius border ">
+        <button class="btn btn-default dropdown-toggle d-md-none" type="button" id="dropdownCenterBtn" data-bs-toggle="dropdown" aria-expanded="false">
+          Project
+        </button>
+        <ul class="dropdown-menu ">
+          <li><a class="dropdown-item active" href="#">ProtoTypes</a></li>
+          <li><a class="dropdown-item" href="#">Images</a></li>
+          <li><a class="dropdown-item" href="#">Streams</a></li>
+          <li><a class="dropdown-item" href="#">Peoples</a></li>
+          <li><a class="dropdown-item" href="#">Moodboards</a></li>
+        </ul>
+      </div>
+                <ul class="nav align-items-center border listborder d-none d-md-flex">
+                    <li class="nav-item">
+                        <a class="fs-6 nav-link fw-bolder text-black  text-white buttonradius  btn  btn-dark " href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" fs-6 fw-bolder text-dark nav-link  afweight" href="#">ProtoTypes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fs-6 nav-link fw-bolder text-dark   afweight">Images</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fs-6 nav-link fw-bolder text-dark   afweight">Streams</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fs-6 nav-link fw-bolder text-dark   afweight">People</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="fs-6 nav-link fw-bolder text-dark   afweight">Moodboards</a>
+                    </li>
+                </ul>
+
+
+
+        </form>
+    </section>
+
+    <!-- snd nav bar -->
+
+   <!-- <section  class="d-flex justify-content-between navborder  pb-1">
+       <div class=" dropdown mt-2 d-flex">
+        <div class="dropdown-center  ms-4">
+            <button class="btn btn-default dropdown-toggle border" type="button" id="dropdownCenterBtn" data-bs-toggle="dropdown" >
+            <i class="fa-brands fa-angrycreative"></i> Creative Fields
+            </button>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item active" href="#">ProtoTypes</a></li>
+              <li><a class="dropdown-item" href="#">Images</a></li>
+              <li><a class="dropdown-item" href="#">Streams</a></li>
+              <li><a class="dropdown-item" href="#">Peoples</a></li>
+              <li><a class="dropdown-item" href="#">Moodboards</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-center  ms-4   ">
+            <button class="btn btn-default dropdown-toggle border" type="button" id="dropdownCenterBtn" data-bs-toggle="dropdown" >
+             <i class="fa-solid fa-circle-plus"></i> Tools
+            </button>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item active" href="#">ProtoTypes</a></li>
+              <li><a class="dropdown-item" href="#">Images</a></li>
+              <li><a class="dropdown-item" href="#">Streams</a></li>
+              <li><a class="dropdown-item" href="#">Peoples</a></li>
+              <li><a class="dropdown-item" href="#">Moodboards</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-center  ms-4   ">
+            <button class="btn btn-default dropdown-toggle border " type="button" id="dropdownCenterBtn" data-bs-toggle="dropdown" >
+                <i class="bi bi-eyedropper"></i> colors
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item active" href="#">ProtoTypes</a></li>
+              <li><a class="dropdown-item" href="#">Images</a></li>
+              <li><a class="dropdown-item" href="#">Streams</a></li>
+              <li><a class="dropdown-item" href="#">Peoples</a></li>
+              <li><a class="dropdown-item" href="#">Moodboards</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-center  ms-4   ">
+            <button class="btn btn-default dropdown-toggle border" type="button" id="dropdownCenterBtn" data-bs-toggle="dropdown" >
+                <i class="bi bi-geo-alt-fill"></i> Location
+            </button>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item active" href="#">ProtoTypes</a></li>
+              <li><a class="dropdown-item" href="#">Images</a></li>
+              <li><a class="dropdown-item" href="#">Streams</a></li>
+              <li><a class="dropdown-item" href="#">Peoples</a></li>
+              <li><a class="dropdown-item" href="#">Moodboards</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-center   ms-4  ">
+            <button class="btn btn-default dropdown-toggle border" type="button" id="dropdownCenterBtn" data-bs-toggle="dropdown" >
+                <i class="bi bi-mortarboard-fill"></i> School
+            </button>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item active" href="#">ProtoTypes</a></li>
+              <li><a class="dropdown-item" href="#">Images</a></li>
+              <li><a class="dropdown-item" href="#">Streams</a></li>
+              <li><a class="dropdown-item" href="#">Peoples</a></li>
+              <li><a class="dropdown-item" href="#">Moodboards</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-center  ms-4   ">
+            <button class="btn btn-default dropdown-toggle border" type="button" id="dropdownCenterBtn" data-bs-toggle="dropdown" >
+                <i class="bi bi-link-45deg"></i> Source file 
+            </button>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item active" href="#">ProtoTypes</a></li>
+              <li><a class="dropdown-item" href="#">Images</a></li>
+              <li><a class="dropdown-item" href="#">Streams</a></li>
+              <li><a class="dropdown-item" href="#">Peoples</a></li>
+              <li><a class="dropdown-item" href="#">Moodboards</a></li>
+            </ul>
+          </div>
+          <div class="dropdown-center   ms-4  ">
+            <button class="btn btn-default dropdown-toggle border" type="button" id="dropdownCenterBtn" data-bs-toggle="dropdown" >
+                <i class="bi bi-person-check-fill"></i> Subscription
+            </button>
+            <ul class="dropdown-menu ">
+              <li><a class="dropdown-item active" href="#">ProtoTypes</a></li>
+              <li><a class="dropdown-item" href="#">Images</a></li>
+              <li><a class="dropdown-item" href="#">Streams</a></li>
+              <li><a class="dropdown-item" href="#">Peoples</a></li>
+              <li><a class="dropdown-item" href="#">Moodboards</a></li>
+            </ul>
+          </div>
+        </div>
+
+          <div class="justify-content-end">
+            <div class="dropdown-center me-4">
+                <button class="btn text-start buttonout dropdown-toggle" type="button" id="dropdownCenterBtn" data-bs-toggle="dropdown" >
+                   <h6 class=" m-0 text-muted fw-bold smallsize">Sort</h6>
+                   Recommended 
+                </button>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item active" href="#">ProtoTypes</a></li>
+                  <li><a class="dropdown-item" href="#">Images</a></li>
+                  <li><a class="dropdown-item" href="#">Streams</a></li>
+                  <li><a class="dropdown-item" href="#">Peoples</a></li>
+                  <li><a class="dropdown-item" href="#">Moodboards</a></li>
+                </ul>
+              </div>
+          </div>
+     </section> -->
+<!-- main section -->
+     <main class="mt-2">
+        <div class="card-group ">
+            <div class="card mx-2  border-0 rounded overflow-hidden">
+                              <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/877f3a101988427.Y3JvcCw1NTc3LDQzNjIsMCw1MTA.jpg " alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title m-0" >Nord University</h5>
+                <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+              <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/9660cc120248863.Y3JvcCwxMTkwLDkzMSwxODgsMzYy.jpg" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title  m-0">My Special Day</h5>
+                <p class="card-text smallsize"> Single Owner<i class="fa-solid fa-caret-down"></i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+                                  <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/09d8df119080465.Y3JvcCwxOTk5LDE1NjQsMCwyNDI.png" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title  m-0">Wrecked Smile</h5>
+                <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+                <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/1fdf45102661377.Y3JvcCwxNzk5LDE0MDcsNjU5LDIyMg.png" alt="Card image cap">
+                <div class="card-body pt-1">
+                  <h5 class="card-title  m-0">Wrecked Smile</h5>
+                  <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></p>
+                  
+                </div>
+              </div>
+            
+          </div>
+          <!-- row2 -->
+          <div class="card-group ">
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+             <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/da2369126513149.Y3JvcCwzMDAwLDIzNDYsMCwyOQ.jpg" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title m-0" >Nord University</h5>
+                <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+              <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/47e45e143892111.Y3JvcCwyNjI1LDIwNTMsMCwxODg.jpg" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title  m-0">My Special Day</h5>
+                <p class="card-text smallsize"> Single Owner<i class="fa-solid fa-caret-down"></i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+                 <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/18fd67143192303.Y3JvcCwyNzM1LDIxMzksMTMwMCwzODU.jpg" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title  m-0">Minimal Smile</h5>
+                <p class="card-text smallsize">larcos</i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+                <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/7c2ddc102000999.5f2c2a64c8f5b.jpg" alt="Card image cap">
+                <div class="card-body pt-1">
+                  <h5 class="card-title  m-0">Wrecked Smile</h5>
+                  <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></p>
+                  
+                </div>
+              </div>
+            
+          </div>
+          <!-- row 3 -->
+          <div class="card-group ">
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+             <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/aa07cf143650673.627e33fe0bd39.jpg" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title m-0" >Nord University</h5>
+                <p class="card-text smallsize"> Multiple Owners  <i class="fa-solid fa-caret-down"></i></i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+              <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/9c38ca140610361.Y3JvcCwxMzQ4LDEwNTQsMjg2LDEz.png" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title  m-0">My Special Day</h5>
+                <p class="card-tex smallsize "> Single Owner<i class="fa-solid fa-caret-down"></i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+                                  <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/7fa10b143814129.Y3JvcCwxMjAwLDkzOCwwLDEx.jpg" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title  m-0">Wrecked Smile</h5>
+                <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+                <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/505c87142886337.Y3JvcCwxMzk5LDEwOTUsMCww.jpg" alt="Card image cap">
+                <div class="card-body pt-1">
+                  <h5 class="card-title  m-0">Wrecked Smile</h5>
+                  <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></p>
+                  
+                </div>
+              </div>
+            
+          </div>   
+          <!-- row 4 -->
+          <div class="card-group ">
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+             <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/da2369126513149.Y3JvcCwzMDAwLDIzNDYsMCwyOQ.jpg" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title m-0" >Nord University</h5>
+                <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+              <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/47e45e143892111.Y3JvcCwyNjI1LDIwNTMsMCwxODg.jpg" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title  m-0">My Special Day</h5>
+                <p class="card-text smallsize"> Single Owner<i class="fa-solid fa-caret-down"></i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+                 <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/18fd67143192303.Y3JvcCwyNzM1LDIxMzksMTMwMCwzODU.jpg" alt="Card image cap">
+              <div class="card-body pt-1">
+                <h5 class="card-title  m-0">Minimal Smile</h5>
+                <p class="card-text smallsize">larcos</i></p>
+                
+              </div>
+            </div>
+            <div class="card mx-2 border-0 rounded overflow-hidden">
+                <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/7c2ddc102000999.5f2c2a64c8f5b.jpg" alt="Card image cap">
+                <div class="card-body pt-1">
+                  <h5 class="card-title  m-0">Wrecked Smile</h5>
+                  <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></p>
+                  
+                </div>
+              </div>
+            </div> 
+            <!-- row5 -->
+            <div class="card-group ">
+              <div class="card mx-2  border-0 rounded overflow-hidden">
+                                <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/877f3a101988427.Y3JvcCw1NTc3LDQzNjIsMCw1MTA.jpg " alt="Card image cap">
+                <div class="card-body pt-1">
+                  <h5 class="card-title m-0" >Nord University</h5>
+                  <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></i></p>
+                  
+                </div>
+              </div>
+              <div class="card mx-2 border-0 rounded overflow-hidden">
+                <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/9660cc120248863.Y3JvcCwxMTkwLDkzMSwxODgsMzYy.jpg" alt="Card image cap">
+                <div class="card-body pt-1">
+                  <h5 class="card-title  m-0">My Special Day</h5>
+                  <p class="card-text smallsize"> Single Owner<i class="fa-solid fa-caret-down"></i></p>
+                  
+                </div>
+              </div>
+              <div class="card mx-2 border-0 rounded overflow-hidden">
+                                    <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/09d8df119080465.Y3JvcCwxOTk5LDE1NjQsMCwyNDI.png" alt="Card image cap">
+                <div class="card-body pt-1">
+                  <h5 class="card-title  m-0">Wrecked Smile</h5>
+                  <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></p>
+                  
+                </div>
+              </div>
+              <div class="card mx-2 border-0 rounded overflow-hidden">
+                  <img class="card-img-top" src="https://mir-s3-cdn-cf.behance.net/projects/404/1fdf45102661377.Y3JvcCwxNzk5LDE0MDcsNjU5LDIyMg.png" alt="Card image cap">
+                  <div class="card-body pt-1">
+                    <h5 class="card-title  m-0">Wrecked Smile</h5>
+                    <p class="card-text smallsize">Multiple Owners <i class="fa-solid fa-caret-down"></i></p>
+                    
+                  </div>
+                </div>
+              
+            </div>
+               
+     </main>
+     <!-- FOOTER -->
+     <footer class="text-center py-4  pb-5 ">
+         <div class="container">
+         <div class="h6">
+
+            <a class="text-dark" href="#">Sign up</a> or  <a class="text-dark" href="#">Sign in</a> to your account to view more work personalized to your preferences.
+
+         </div>
+         
+         <div>
+             <a href="" class="btn btn-primary fw-bolder buttonradius mt-4"> Sign Up With Email</a>  
+         </div>
+         <div class="h4">
+           <p class="text-muted pt-2 h6">or</p> <i class="fa-brands fa-apple"></i>  <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-google-plus"></i>
+         </div>
+        </div>
+    </div>
+
+     </footer>
+
+     <!-- stickyfoot -->
+
+     <div class="fixed-footer footerpos bg bg-white pt-2 w-100">
+         <div class=" d-flex justify-content-between">
+          <div>
+                <button class="dropdown btn  btn-white bg-white text-muted borderend ">
+                    More Behance
+                </button>
+                <button class="dropdown btn btn-white bg-white text-muted  borderend">
+                    Socials
+                </button>
+                <button class="dropdown btn btn-white bg-white text-muted borderend ">
+                    Be creative
+                </button>
+         </div>
+         <div>
+            <i class=" h2 pe-3 fa-brands fa-google-pay"></i>
+         </div>
+         </div>
+     </div> 
+   
+
+    <!-- font awsome scrimpt -->
+    <script src="https://kit.fontawesome.com/0d4fc3fa7e.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

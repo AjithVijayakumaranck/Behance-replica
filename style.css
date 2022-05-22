@@ -1,0 +1,68 @@
+.navborder{
+    border-bottom:1px solid#f2f2f2
+}
+.afweight{
+    font-weight: bold !important;
+}
+.buttonradius{
+    border-radius: 100px !important;
+}
+
+.buttonradius2{
+    
+    border-radius: 100px !important;
+    height: 50px !important;
+   
+}
+.searchradius{
+    border-left: 0px !important;
+    border-radius: 100px 0px 0px 100px!important;
+   
+}
+.barradius{
+    border-radius: 0px 100px 100px 0px!important;
+}
+.fontsizesearch{
+    font-size: 20px !important;
+    padding-left: 50px;
+}
+.buttonout{
+    border: none !important;
+}
+.listborder{
+    border-radius: 0px 100px 100px 0px;
+    padding-right: 10px;
+}
+.widthoff{
+  width: auto;
+}
+.logo{
+    left:0 imo !important;
+}
+.smallsize{
+
+    font-size: 10px;
+}
+.noborder{
+    border: 0px;
+}
+.paddingtop{
+    padding-top: 1rem !important;
+    
+}
+.marginmain{
+    padding-top: 70px !important;
+}
+.borderend{
+    padding-top: 0px !important;
+    padding-bottom: 0px  !important;
+    border-right: 1px solid #2f2f2f !important;
+    border-radius: 0px !important;
+    font-size: 12px !important;
+}
+.footerpos{
+    position:fixed ;
+    bottom: 0;
+    font-size: 5px !important;
+    height: 40px;
+}
